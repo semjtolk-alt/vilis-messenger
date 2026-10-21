@@ -1,0 +1,9 @@
+{
+  "name": "vilis-messenger",
+  "version": "1.0.0",
+  "description": "Vilis web server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
