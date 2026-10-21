@@ -1,13 +1,22 @@
 
 {
   "name": "vilis-messenger",
-  "version": "1.0.0",
-  "description": "Vilis Messenger and Telegram bot",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Vilis Messenger",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.13.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "socket.io": "^4.8.1",
+    "node-telegram-bot-api": "^0.66.0"
   }
 }
